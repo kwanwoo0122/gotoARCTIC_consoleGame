@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29209.62
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1학기 플밍 콘솔게임", "1학기 플밍 콘솔게임.vcxproj", "{F56F6545-6AA5-4A39-AF81-163C84A9F899}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F56F6545-6AA5-4A39-AF81-163C84A9F899}.Debug|x64.ActiveCfg = Debug|x64
+		{F56F6545-6AA5-4A39-AF81-163C84A9F899}.Debug|x64.Build.0 = Debug|x64
+		{F56F6545-6AA5-4A39-AF81-163C84A9F899}.Debug|x86.ActiveCfg = Debug|Win32
+		{F56F6545-6AA5-4A39-AF81-163C84A9F899}.Debug|x86.Build.0 = Debug|Win32
+		{F56F6545-6AA5-4A39-AF81-163C84A9F899}.Release|x64.ActiveCfg = Release|x64
+		{F56F6545-6AA5-4A39-AF81-163C84A9F899}.Release|x64.Build.0 = Release|x64
+		{F56F6545-6AA5-4A39-AF81-163C84A9F899}.Release|x86.ActiveCfg = Release|Win32
+		{F56F6545-6AA5-4A39-AF81-163C84A9F899}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9A4B291F-487B-4591-9907-D097265A6003}
+	EndGlobalSection
+EndGlobal

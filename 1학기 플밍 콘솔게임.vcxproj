@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{F56F6545-6AA5-4A39-AF81-163C84A9F899}</ProjectGuid>
+    <RootNamespace>My1학기플밍콘솔게임</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="main.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="continueGame.h" />
+    <ClInclude Include="displayEnding.h" />
+    <ClInclude Include="displayStart.h" />
+    <ClInclude Include="fullscreenConsole.h" />
+    <ClInclude Include="console.h" />
+    <ClInclude Include="howToGame.h" />
+    <ClInclude Include="ImageLayer.h" />
+    <ClInclude Include="ImageLayerImpl.h" />
+    <ClInclude Include="ImageLayerInterface.h" />
+    <ClInclude Include="loadSavefile.h" />
+    <ClInclude Include="MouseInput.h" />
+    <ClInclude Include="moveImage.h" />
+    <ClInclude Include="pushImage.h" />
+    <ClInclude Include="pushSavefile.h" />
+    <ClInclude Include="startGame.h" />
+    <ClInclude Include="timeCount.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="blockMap.bmp" />
+    <Image Include="characterBack.bmp" />
+    <Image Include="characterFront.bmp" />
+    <Image Include="characterLeft.bmp" />
+    <Image Include="characterRight.bmp" />
+    <Image Include="clock1.bmp" />
+    <Image Include="clock2.bmp" />
+    <Image Include="clock3.bmp" />
+    <Image Include="door1.bmp" />
+    <Image Include="door2.bmp" />
+    <Image Include="door3.bmp" />
+    <Image Include="door4.bmp" />
+    <Image Include="emptySavefile.bmp" />
+    <Image Include="ending.bmp" />
+    <Image Include="finishSave.bmp" />
+    <Image Include="GameFail.bmp" />
+    <Image Include="howToGame1.bmp" />
+    <Image Include="howToGame2.bmp" />
+    <Image Include="loadSavefile.bmp" />
+    <Image Include="mainRoom1.bmp" />
+    <Image Include="mainRoom2.bmp" />
+    <Image Include="mainRoom3.bmp" />
+    <Image Include="openDoor.bmp" />
+    <Image Include="reGame.bmp" />
+    <Image Include="reGameFail.bmp" />
+    <Image Include="solve1.bmp" />
+    <Image Include="solve2.bmp" />
+    <Image Include="solve3.bmp" />
+    <Image Include="startPage.bmp" />
+    <Image Include="story1.bmp" />
+    <Image Include="story10.bmp" />
+    <Image Include="story11.bmp" />
+    <Image Include="story12.bmp" />
+    <Image Include="story13.bmp" />
+    <Image Include="story14.bmp" />
+    <Image Include="story15.bmp" />
+    <Image Include="story16.bmp" />
+    <Image Include="story18.bmp" />
+    <Image Include="story2.bmp" />
+    <Image Include="story3.bmp" />
+    <Image Include="story4.bmp" />
+    <Image Include="story5.bmp" />
+    <Image Include="story6.bmp" />
+    <Image Include="story7.bmp" />
+    <Image Include="story8.bmp" />
+    <Image Include="story9.bmp" />
+    <Image Include="wrongSolve1.bmp" />
+    <Image Include="wrongSolve2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="endingMusic.wav" />
+    <Media Include="invertMusic.wav" />
+    <Media Include="mainRoomMusic.wav" />
+    <Media Include="saveFileMusic.wav" />
+    <Media Include="startMusic.WAV" />
+    <Media Include="startPage.WAV" />
+    <Media Include="storyMusic.wav" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

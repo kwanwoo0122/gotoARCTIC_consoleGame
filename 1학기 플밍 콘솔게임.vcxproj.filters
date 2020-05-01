@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="fullscreenConsole.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="pushSavefile.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="console.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="loadSavefile.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageLayer.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageLayerImpl.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageLayerInterface.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="pushImage.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="moveImage.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseInput.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="displayStart.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="timeCount.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="startGame.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="displayEnding.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="continueGame.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="howToGame.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="characterBack.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="characterFront.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="characterLeft.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="characterRight.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="blockMap.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="mainRoom1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="mainRoom2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="mainRoom3.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="startPage.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="clock1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="clock2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="clock3.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="door1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="door2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="door3.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="door4.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="emptySavefile.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="ending.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="finishSave.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="GameFail.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="howToGame1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="howToGame2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="loadSavefile.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="openDoor.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="reGame.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="reGameFail.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="solve1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="solve2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="solve3.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="story1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="story2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="story3.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="story4.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="story5.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="story6.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="story7.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="story8.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="story9.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="story10.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="story11.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="story12.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="story13.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="story14.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="story15.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="story16.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="story18.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="wrongSolve1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="wrongSolve2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="startPage.WAV">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="endingMusic.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="mainRoomMusic.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="saveFileMusic.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="storyMusic.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="invertMusic.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="startMusic.WAV">
+      <Filter>리소스 파일</Filter>
+    </Media>
+  </ItemGroup>
+</Project>
